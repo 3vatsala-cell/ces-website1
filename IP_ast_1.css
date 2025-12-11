@@ -1,0 +1,101 @@
+/* BASIC RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* INDIAN THEME GRADIENT */
+body {
+    background: linear-gradient(180deg, #FF9933, #FFFFFF, #138808);
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+/* NAVBAR */
+nav {
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #FF8C00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+
+nav li:hover {
+    color: #138808;
+    transition: 0.3s;
+}
+
+/* PAGE BOXES */
+.page {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* BUTTON */
+.start-btn {
+    padding: 12px 20px;
+    background: #FF8C00;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background: #D97706;
+}
+
+/* SEARCH BOX */
+.searchBox {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border: 2px solid #FF9933;
+}
+
+/* CASE BOXES */
+.caseBox {
+    background: #F4F4F4;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.caseBox:hover {
+    background: #E0E0E0;
+}
+
+/* MOBILE FRIENDLY */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
